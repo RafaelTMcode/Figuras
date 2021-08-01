@@ -1,8 +1,7 @@
-public class Estrella extends Figura implements IFigura {
+public class Estrella extends Figura {
 
     public Estrella(String colorBorde, String colorFondo, Rectangulo rectangulo) {
         super(colorBorde, colorFondo, rectangulo);
-        //TODO Auto-generated constructor stub
     }
 
     public Estrella() {

@@ -1,8 +1,7 @@
-public class Rayo extends Figura implements IFigura {
+public class Rayo extends Figura {
 
     public Rayo(String colorBorde, String colorFondo, Rectangulo rectangulo) {
         super(colorBorde, colorFondo, rectangulo);
-        //TODO Auto-generated constructor stub
     }
 
     public Rayo() {

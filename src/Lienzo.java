@@ -25,24 +25,4 @@ public class Lienzo {
         
     }
 
-    /*
-    Add(IFigura) List<Interface> List<Interface> {
-        //agregar figura a las lista
-        //poner el color a negro
-        //poner el bgcolor a blanco
-        //establecer el rectangulo
-        //establecer esta figura como seleccionada
-        //
-
-    }
-    getSelected(Point){
-        //dado un punto recorrer las figuras y devolver
-        //la primera que esta en el rectangulo
-        
-    }
-
-
-    */
-
-
 }

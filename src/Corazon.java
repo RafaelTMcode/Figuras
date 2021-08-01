@@ -1,8 +1,7 @@
-public class Corazon extends Figura implements IFigura{
+public class Corazon extends Figura{
 
     public Corazon(String colorBorde, String colorFondo, Rectangulo rectangulo) {
         super(colorBorde, colorFondo, rectangulo);
-        //TODO Auto-generated constructor stub
     }
 
     public Corazon() {

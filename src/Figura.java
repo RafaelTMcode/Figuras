@@ -43,6 +43,4 @@ public abstract class Figura implements IFigura {
         return "La Figura tiene el color del borde " + colorBorde + ", el color del fondo " + colorFondo + ", su area es " + rectangulo + " y ";
     }
 
-    
-
 }
