@@ -1,4 +1,4 @@
-public interface IFigura {
+public interface IFigure {
 
     public void Draw();
 }

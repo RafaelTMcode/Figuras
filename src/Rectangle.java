@@ -1,6 +1,6 @@
 
 
-public class Rectangulo {
+public class Rectangle {
 
     public final int left;
     public final int right;
@@ -9,7 +9,7 @@ public class Rectangulo {
     //public final int height;
     //public final int widht;
 
-    Rectangulo(Punto start, Punto end){
+    Rectangle(Point start, Point end){
         this.left=start.x;
         this.right=end.x;
         this.top=start.y;

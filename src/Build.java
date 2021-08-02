@@ -1,13 +1,13 @@
 public class Build {
 
-    static Figura build(enumFigura enumFigura) {
+    static Figure build(enumFigure enumFigure) {
 
-        if (enumFigura == enumFigura.CORAZON) {
-            return new Corazon();
-        } else if (enumFigura == enumFigura.ESTRELLA) {
-            return new Estrella();
+        if (enumFigure == enumFigure.HEART) {
+            return new Heart();
+        } else if (enumFigure == enumFigure.STAR) {
+            return new Star();
         } else {
-            return new Rayo();
+            return new Thunder();
         }
      
     }
