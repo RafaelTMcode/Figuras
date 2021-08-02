@@ -4,12 +4,6 @@ public abstract class Figure implements IFigure {
     private String bgColor;
     private Rectangle rectangle;
 
-    public Figure(String edgeColor, String bgColor, Rectangle rectangle) {
-        this.edgeColor = edgeColor;
-        this.bgColor = bgColor;
-        this.rectangle = rectangle;
-    }
-
     public Figure() {
 
     }
