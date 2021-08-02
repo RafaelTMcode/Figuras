@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Lienzo {
 
-    Figura figura;
+    Figura figura;//sobra
     IFigura iFigura;
-    final List<Figura> lista = new ArrayList<Figura>();
+    final List<Figura> lista = new ArrayList<Figura>();//L
 
     public void add(Figura figura, Rectangulo rectangulo){
         figura.setRectangulo(rectangulo);

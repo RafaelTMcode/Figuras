@@ -1,15 +1,15 @@
 public class Build {
 
-    static Figura build(String figura) {
+    static Figura build(enumFigura enumFigura) {
 
-        if (figura == enumFigura.CORAZON.name()) {
+        if (enumFigura == enumFigura.CORAZON) {
             return new Corazon();
-        } else if (figura == enumFigura.ESTRELLA.name()) {
+        } else if (enumFigura == enumFigura.ESTRELLA) {
             return new Estrella();
-        } else if (figura == enumFigura.RAYO.name()) {
+        } else {
             return new Rayo();
         }
-        return null;
+     
     }
 
 }

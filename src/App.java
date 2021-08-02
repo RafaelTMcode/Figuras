@@ -3,7 +3,7 @@ public class App {
 
         Lienzo lienzo = new Lienzo();
 
-        Figura figura1 = Build.build("ESTRELLA");
+        Figura figura1 = Build.build(enumFigura.ESTRELLA);
         figura1.setColorBorde("rojo");
         figura1.setColorFondo("amarillo");
         figura1.getClass().getName();

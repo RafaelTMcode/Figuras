@@ -9,7 +9,7 @@ public class Rayo extends Figura {
     }
 
     @Override
-    public void Draw() {
+    public void Draw() {//TODO d
         System.out.println("Rayo");
         
     }
@@ -18,7 +18,7 @@ public class Rayo extends Figura {
     public String toString() {
         return super.toString() + "es una Rayo";
     }
-
+                
 
     
 }
